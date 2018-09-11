@@ -1,0 +1,139 @@
+﻿生成启动时间为 2018/9/10 10:04:15。
+     1>项目“D:\work\国睿一期代码\MyBaseDLL\MyBaseDLL\MyBaseDLL.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\x86_amd64\CL.exe /c /I"D:\work\国睿一期代码\MyBaseDLL\MyBaseDLL\code" /I"D:\work\国睿一期代码\code\SDK\inc" /I"D:\work\国睿一期代码\code\SDK\inc-x64" /AI"C:\Program Files\AutoCAD 2010\\" /Zi /nologo /W1 /WX- /Od /D _WIN64 /D _WINDOWS /D MYBASEDLL_MODULE /D _AFXEXT /D _ACRXAPP /D MYBASEDLL_EXPORTS /D ARX /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /GF- /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"StdAfx.h" /Fp"x64\Debug\MyBaseDLL.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc90.pdb" /Gd /TP /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+          WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\x86_amd64\CL.exe /c /I"D:\work\国睿一期代码\MyBaseDLL\MyBaseDLL\code" /I"D:\work\国睿一期代码\code\SDK\inc" /I"D:\work\国睿一期代码\code\SDK\inc-x64" /AI"C:\Program Files\AutoCAD 2010\\" /Zi /nologo /W1 /WX- /Od /D _WIN64 /D _WINDOWS /D MYBASEDLL_MODULE /D _AFXEXT /D _ACRXAPP /D MYBASEDLL_EXPORTS /D ARX /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /GF- /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"StdAfx.h" /Fp"x64\Debug\MyBaseDLL.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc90.pdb" /Gd /TP /errorReport:prompt acrxEntryPoint.cpp DocData.cpp MyBaseDLL.cpp code\AcadStr.cpp code\ArxDbgReferenceFiler.cpp code\ArxDbgUtilsDb.cpp code\Global.cpp code\IniFile.cpp code\MyBaseRbList.cpp code\MyBaseUtils.cpp code\MybaseUtilsDict.cpp code\MyBaseUtilsSymTbl.cpp code\MyBaseXdata.cpp code\MyDrag.cpp code\MyDrawEntity.cpp code\MyEditEntity.cpp code\MyLayout.cpp code\MyOperateFile.cpp code\MyParserString.cpp code\MySymble.cpp code\MyTransFunc.cpp code\OperateReg.cpp code\WriteLog.cpp code\GraphBlockViewWnd.cpp code\GraphListCtrl.cpp code\GraphTitleTip.cpp code\GsMPCtrl.cpp
+         GsMPCtrl.cpp
+         GraphTitleTip.cpp
+         GraphListCtrl.cpp
+         GraphBlockViewWnd.cpp
+         WriteLog.cpp
+         OperateReg.cpp
+         MyTransFunc.cpp
+         MySymble.cpp
+         MyParserString.cpp
+         MyOperateFile.cpp
+         MyLayout.cpp
+         MyEditEntity.cpp
+         MyDrawEntity.cpp
+         MyDrag.cpp
+         MyBaseXdata.cpp
+         MyBaseUtilsSymTbl.cpp
+         MybaseUtilsDict.cpp
+         MyBaseUtils.cpp
+         MyBaseRbList.cpp
+         IniFile.cpp
+         正在生成代码...
+         正在编译...
+         Global.cpp
+         ArxDbgUtilsDb.cpp
+         ArxDbgReferenceFiler.cpp
+         AcadStr.cpp
+         MyBaseDLL.cpp
+         DocData.cpp
+         acrxEntryPoint.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /fo"x64\Debug\MyBaseDLL.res" MyBaseDLL.rc 
+         Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+         
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\rc.exe /fo"x64\Debug\MyBaseDLL.dll.embed.manifest.res" x64\Debug\MyBaseDLL_manifest.rc 
+         Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+         
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\work\国睿一期代码\MyBaseDLL\x64\Debug\MyBaseDLL.dll) 与 Linker 的 OutputFile 属性值(D:\work\国睿一期代码\ZWRQY_ACAD\MyBaseDLL.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\国睿一期代码\ZWRQY_ACAD\MyBaseDLL.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\work\国睿一期代码\code\SDK\lib-x64" /MANIFEST /ManifestFile:"x64\Debug\MyBaseDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\国睿一期代码\MyBaseDLL\x64\Debug\MyBaseDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\国睿一期代码\ZWRQY_ACAD\MyBaseDLL.lib" /MACHINE:X64 /DLL x64\Debug\MyBaseDLL.res
+         x64\Debug\MyBaseDLL.dll.embed.manifest.res
+         x64\Debug\acrxEntryPoint.obj
+         x64\Debug\DocData.obj
+         x64\Debug\MyBaseDLL.obj
+         x64\Debug\StdAfx.obj
+         x64\Debug\AcadStr.obj
+         x64\Debug\ArxDbgReferenceFiler.obj
+         x64\Debug\ArxDbgUtilsDb.obj
+         x64\Debug\Global.obj
+         x64\Debug\IniFile.obj
+         x64\Debug\MyBaseRbList.obj
+         x64\Debug\MyBaseUtils.obj
+         x64\Debug\MybaseUtilsDict.obj
+         x64\Debug\MyBaseUtilsSymTbl.obj
+         x64\Debug\MyBaseXdata.obj
+         x64\Debug\MyDrag.obj
+         x64\Debug\MyDrawEntity.obj
+         x64\Debug\MyEditEntity.obj
+         x64\Debug\MyLayout.obj
+         x64\Debug\MyOperateFile.obj
+         x64\Debug\MyParserString.obj
+         x64\Debug\MySymble.obj
+         x64\Debug\MyTransFunc.obj
+         x64\Debug\OperateReg.obj
+         x64\Debug\WriteLog.obj
+         x64\Debug\GraphBlockViewWnd.obj
+         x64\Debug\GraphListCtrl.obj
+         x64\Debug\GraphTitleTip.obj
+         x64\Debug\GsMPCtrl.obj
+            正在创建库 D:\work\国睿一期代码\ZWRQY_ACAD\MyBaseDLL.lib 和对象 D:\work\国睿一期代码\ZWRQY_ACAD\MyBaseDLL.exp
+     1>rxapi.lib(libinit.obj) : warning LNK4099: 未找到 PDB“rxapi.pdb”(使用“D:\work\国睿一期代码\code\SDK\lib-x64\rxapi.lib”或在“D:\work\国睿一期代码\MyBaseDLL\x64\Debug\rxapi.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>rxapi.lib(nullobid.obj) : warning LNK4099: 未找到 PDB“rxapi.pdb”(使用“D:\work\国睿一期代码\code\SDK\lib-x64\rxapi.lib”或在“D:\work\国睿一期代码\MyBaseDLL\x64\Debug\rxapi.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>acedapi.lib(acedstub.obj) : warning LNK4099: 未找到 PDB“corehdr.pdb”(使用“D:\work\国睿一期代码\code\SDK\lib-x64\acedapi.lib”或在“D:\work\国睿一期代码\MyBaseDLL\x64\Debug\corehdr.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>acedapi.lib(acedcls.obj) : warning LNK4099: 未找到 PDB“corehdr.pdb”(使用“D:\work\国睿一期代码\code\SDK\lib-x64\acedapi.lib”或在“D:\work\国睿一期代码\MyBaseDLL\x64\Debug\corehdr.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         MyBaseDLL.vcxproj -> D:\work\国睿一期代码\MyBaseDLL\x64\Debug\MyBaseDLL.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\MyBaseDLL.dll.embed.manifest" /manifest x64\Debug\MyBaseDLL.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\rc.exe /fo"x64\Debug\MyBaseDLL.dll.embed.manifest.res" x64\Debug\MyBaseDLL_manifest.rc 
+         Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+         
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\国睿一期代码\ZWRQY_ACAD\MyBaseDLL.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\work\国睿一期代码\code\SDK\lib-x64" /MANIFEST /ManifestFile:"x64\Debug\MyBaseDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\国睿一期代码\MyBaseDLL\x64\Debug\MyBaseDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\国睿一期代码\ZWRQY_ACAD\MyBaseDLL.lib" /MACHINE:X64 /DLL x64\Debug\MyBaseDLL.res
+         x64\Debug\MyBaseDLL.dll.embed.manifest.res
+         x64\Debug\acrxEntryPoint.obj
+         x64\Debug\DocData.obj
+         x64\Debug\MyBaseDLL.obj
+         x64\Debug\StdAfx.obj
+         x64\Debug\AcadStr.obj
+         x64\Debug\ArxDbgReferenceFiler.obj
+         x64\Debug\ArxDbgUtilsDb.obj
+         x64\Debug\Global.obj
+         x64\Debug\IniFile.obj
+         x64\Debug\MyBaseRbList.obj
+         x64\Debug\MyBaseUtils.obj
+         x64\Debug\MybaseUtilsDict.obj
+         x64\Debug\MyBaseUtilsSymTbl.obj
+         x64\Debug\MyBaseXdata.obj
+         x64\Debug\MyDrag.obj
+         x64\Debug\MyDrawEntity.obj
+         x64\Debug\MyEditEntity.obj
+         x64\Debug\MyLayout.obj
+         x64\Debug\MyOperateFile.obj
+         x64\Debug\MyParserString.obj
+         x64\Debug\MySymble.obj
+         x64\Debug\MyTransFunc.obj
+         x64\Debug\OperateReg.obj
+         x64\Debug\WriteLog.obj
+         x64\Debug\GraphBlockViewWnd.obj
+         x64\Debug\GraphListCtrl.obj
+         x64\Debug\GraphTitleTip.obj
+         x64\Debug\GsMPCtrl.obj
+            正在创建库 D:\work\国睿一期代码\ZWRQY_ACAD\MyBaseDLL.lib 和对象 D:\work\国睿一期代码\ZWRQY_ACAD\MyBaseDLL.exp
+     1>rxapi.lib(libinit.obj) : warning LNK4099: 未找到 PDB“rxapi.pdb”(使用“D:\work\国睿一期代码\code\SDK\lib-x64\rxapi.lib”或在“D:\work\国睿一期代码\MyBaseDLL\x64\Debug\rxapi.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>rxapi.lib(nullobid.obj) : warning LNK4099: 未找到 PDB“rxapi.pdb”(使用“D:\work\国睿一期代码\code\SDK\lib-x64\rxapi.lib”或在“D:\work\国睿一期代码\MyBaseDLL\x64\Debug\rxapi.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>acedapi.lib(acedstub.obj) : warning LNK4099: 未找到 PDB“corehdr.pdb”(使用“D:\work\国睿一期代码\code\SDK\lib-x64\acedapi.lib”或在“D:\work\国睿一期代码\MyBaseDLL\x64\Debug\corehdr.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>acedapi.lib(acedcls.obj) : warning LNK4099: 未找到 PDB“corehdr.pdb”(使用“D:\work\国睿一期代码\code\SDK\lib-x64\acedapi.lib”或在“D:\work\国睿一期代码\MyBaseDLL\x64\Debug\corehdr.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         MyBaseDLL.vcxproj -> D:\work\国睿一期代码\MyBaseDLL\x64\Debug\MyBaseDLL.dll
+     1>已完成生成项目“D:\work\国睿一期代码\MyBaseDLL\MyBaseDLL\MyBaseDLL.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.43

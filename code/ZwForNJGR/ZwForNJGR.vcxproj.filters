@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{23426f88-70a1-4bd4-92bb-4e91bf5d60b2}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;idl;odl</Extensions>
+    </Filter>
+    <Filter Include="Source Files\excel">
+      <UniqueIdentifier>{ebfc5414-e40b-4877-b39d-97a55b39baad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Draw">
+      <UniqueIdentifier>{07a45808-e58b-4344-90d8-84d48af19cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataCell">
+      <UniqueIdentifier>{ddd9cfdf-cfd0-4e4c-ac36-27bf70257d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataCell\lrmvdata">
+      <UniqueIdentifier>{0625c549-ff2c-4f08-a406-306a016d5632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataCell\Read">
+      <UniqueIdentifier>{4e40cb8b-6e63-4525-a3da-c5a7b0a4683d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utilty">
+      <UniqueIdentifier>{c4b52c62-481f-471b-8f2c-53b7d3dff76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\basedata">
+      <UniqueIdentifier>{f21af22f-4086-4d06-8785-4f94962aef97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DLG">
+      <UniqueIdentifier>{c20a9f21-f16f-4450-8852-0b5a3daa6ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DLG\listctrl">
+      <UniqueIdentifier>{162f9935-6360-4b5b-8625-a0b67f9b6889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\菜单">
+      <UniqueIdentifier>{a25d854c-3815-458f-ac1d-916d65a49523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\虚线框">
+      <UniqueIdentifier>{98235c76-9c7b-4a4d-94a0-09ea1e95e85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\特殊LRMV">
+      <UniqueIdentifier>{a069730c-1e18-4535-a736-962b14e7a893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\进度条">
+      <UniqueIdentifier>{e3e23624-bb37-4505-8fa8-79ac4326760c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\技术文字">
+      <UniqueIdentifier>{4b480229-4ad1-4f71-b0aa-0fe8eee20f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reactor">
+      <UniqueIdentifier>{3d4786ea-5965-41cd-a75b-fb92179cf58f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\图框">
+      <UniqueIdentifier>{022df0ae-49e3-4fc5-89b6-f810db265056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XML">
+      <UniqueIdentifier>{4310fbd9-6ea1-4eec-8878-ca3761c3bea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Global">
+      <UniqueIdentifier>{16c5fbf5-adbd-4e34-8933-d6716a178ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\头子生成座子">
+      <UniqueIdentifier>{5248f96e-d7d4-4be9-8438-02db5f68cc04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\座子生成头子">
+      <UniqueIdentifier>{64540278-5fe3-45e8-b8a5-78d8a11569ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\错误列表">
+      <UniqueIdentifier>{a912c324-c7a0-4282-ac2d-66facf0c4e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\校验数据">
+      <UniqueIdentifier>{646ddaed-30fa-403f-862e-1c0bcfd65b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\线号处理">
+      <UniqueIdentifier>{7ed3e3c5-c5be-47c4-88c9-28208d6afd99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other">
+      <UniqueIdentifier>{becacc77-1116-48e0-90fb-d9b959d1f371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\外框">
+      <UniqueIdentifier>{d2c557e6-4239-46eb-9d8d-2e27c2c6291d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\方便修改">
+      <UniqueIdentifier>{5031bc17-e6af-400c-bd44-51da4d330dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{8a84fd7c-07c8-481d-9495-e3943ccaa585}</UniqueIdentifier>
+      <Extensions>h;hh;hxx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{eb7c5063-b2ba-410b-ae9a-93e3a16c1f21}</UniqueIdentifier>
+      <Extensions>rc;ico;bmp;cur;jpg;gif</Extensions>
+    </Filter>
+    <Filter Include="Miscellaneous Files">
+      <UniqueIdentifier>{689da908-e710-46de-950f-cf4a28815fa1}</UniqueIdentifier>
+      <Extensions>reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj</Extensions>
+    </Filter>
+    <Filter Include="Source Files\修改特性">
+      <UniqueIdentifier>{372368f4-9a3f-4699-b987-5646bb6a89aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\修改excel">
+      <UniqueIdentifier>{8ea2e657-6ee7-447a-930e-bd3839483c59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DocData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZwForNJGR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="excel9.cpp">
+      <Filter>Source Files\excel</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExcel.cpp">
+      <Filter>Source Files\excel</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawDigitalOptical.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawEnt.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawLrmvEnt.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommonCell.cpp">
+      <Filter>Source Files\DataCell</Filter>
+    </ClCompile>
+    <ClCompile Include="CDataCell.cpp">
+      <Filter>Source Files\DataCell</Filter>
+    </ClCompile>
+    <ClCompile Include="CNameCell.cpp">
+      <Filter>Source Files\DataCell</Filter>
+    </ClCompile>
+    <ClCompile Include="CLrmvTitleInfo.cpp">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonData.cpp">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClCompile>
+    <ClCompile Include="GLData.cpp">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClCompile>
+    <ClCompile Include="RFData.cpp">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClCompile>
+    <ClCompile Include="SheetStoreData.cpp">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClCompile>
+    <ClCompile Include="TableData.cpp">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClCompile>
+    <ClCompile Include="CDigitalOpticalSheet.cpp">
+      <Filter>Source Files\DataCell\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="CLrmSheetInfo.cpp">
+      <Filter>Source Files\DataCell\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="CSheetInfo.cpp">
+      <Filter>Source Files\DataCell\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleSheetData.cpp">
+      <Filter>Source Files\DataCell\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\utilty</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseUtils.cpp">
+      <Filter>Source Files\basedata</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseInfoInDwgFile.cpp">
+      <Filter>Source Files\basedata</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawBaseData.cpp">
+      <Filter>Source Files\basedata</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommonDraw.cpp">
+      <Filter>Source Files\DLG</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgInitSetting.cpp">
+      <Filter>Source Files\DLG</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSaveBM.cpp">
+      <Filter>Source Files\DLG</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTKSZ.cpp">
+      <Filter>Source Files\DLG</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboItem.cpp">
+      <Filter>Source Files\DLG\listctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="EditItem.cpp">
+      <Filter>Source Files\DLG\listctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="EditList.cpp">
+      <Filter>Source Files\DLG\listctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawDotted.cpp">
+      <Filter>Source Files\虚线框</Filter>
+    </ClCompile>
+    <ClCompile Include="CLRMVSheet.cpp">
+      <Filter>Source Files\特殊LRMV</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProress.cpp">
+      <Filter>Source Files\进度条</Filter>
+    </ClCompile>
+    <ClCompile Include="MyProgress.cpp">
+      <Filter>Source Files\进度条</Filter>
+    </ClCompile>
+    <ClCompile Include="DirTreeCtrl.cpp">
+      <Filter>Source Files\技术文字</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgJswz.cpp">
+      <Filter>Source Files\技术文字</Filter>
+    </ClCompile>
+    <ClCompile Include="SortStringArray.cpp">
+      <Filter>Source Files\技术文字</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseDbReactor.cpp">
+      <Filter>Source Files\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseDocReactor.cpp">
+      <Filter>Source Files\Reactor</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawFrame.cpp">
+      <Filter>Source Files\图框</Filter>
+    </ClCompile>
+    <ClCompile Include="CFrameInfo.cpp">
+      <Filter>Source Files\图框</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEidtFrame.cpp">
+      <Filter>Source Files\图框</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="CGlobalQuery.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="CGlobalRWriteFile.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="CLrmvpSheetInfo.cpp">
+      <Filter>Source Files\头子生成座子</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCreateZuozi.cpp">
+      <Filter>Source Files\头子生成座子</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCreateTouzi.cpp">
+      <Filter>Source Files\座子生成头子</Filter>
+    </ClCompile>
+    <ClCompile Include="CIgnoreErrorCell.cpp">
+      <Filter>Source Files\错误列表</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgListError.cpp">
+      <Filter>Source Files\错误列表</Filter>
+    </ClCompile>
+    <ClCompile Include="CVerifyData.cpp">
+      <Filter>Source Files\校验数据</Filter>
+    </ClCompile>
+    <ClCompile Include="CGenerateJxb.cpp">
+      <Filter>Source Files\线号处理</Filter>
+    </ClCompile>
+    <ClCompile Include="CSingalNo.cpp">
+      <Filter>Source Files\线号处理</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawLjx.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDrawResistance.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawOutLine.cpp">
+      <Filter>Source Files\外框</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuickFindQuxiang.cpp">
+      <Filter>Source Files\方便修改</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEditTexing.cpp">
+      <Filter>Source Files\修改特性</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEditExcel.cpp">
+      <Filter>Source Files\修改excel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="excel9.h">
+      <Filter>Source Files\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExcel.h">
+      <Filter>Source Files\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawDigitalOptical.h">
+      <Filter>Source Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawEnt.h">
+      <Filter>Source Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawLrmvEnt.h">
+      <Filter>Source Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommonCell.h">
+      <Filter>Source Files\DataCell</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommonDraw.h">
+      <Filter>Source Files\DataCell</Filter>
+    </ClInclude>
+    <ClInclude Include="CDataCell.h">
+      <Filter>Source Files\DataCell</Filter>
+    </ClInclude>
+    <ClInclude Include="CNameCell.h">
+      <Filter>Source Files\DataCell</Filter>
+    </ClInclude>
+    <ClInclude Include="CLrmvTitleInfo.h">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonData.h">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClInclude>
+    <ClInclude Include="GLData.h">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClInclude>
+    <ClInclude Include="RFData.h">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClInclude>
+    <ClInclude Include="SheetStoreData.h">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClInclude>
+    <ClInclude Include="TableData.h">
+      <Filter>Source Files\DataCell\lrmvdata</Filter>
+    </ClInclude>
+    <ClInclude Include="CDigitalOpticalSheet.h">
+      <Filter>Source Files\DataCell\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="CLrmSheetInfo.h">
+      <Filter>Source Files\DataCell\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="CSheetInfo.h">
+      <Filter>Source Files\DataCell\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleSheetData.h">
+      <Filter>Source Files\DataCell\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Source Files\utilty</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseUtils.h">
+      <Filter>Source Files\basedata</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseInfoInDwgFile.h">
+      <Filter>Source Files\basedata</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawBaseData.h">
+      <Filter>Source Files\basedata</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgInitSetting.h">
+      <Filter>Source Files\DLG</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSaveBM.h">
+      <Filter>Source Files\DLG</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTKSZ.h">
+      <Filter>Source Files\DLG</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboItem.h">
+      <Filter>Source Files\DLG\listctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="EditItem.h">
+      <Filter>Source Files\DLG\listctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="EditList.h">
+      <Filter>Source Files\DLG\listctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="CAcadApplication.h">
+      <Filter>Source Files\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="CAcadDocument.h">
+      <Filter>Source Files\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="CAcadMenuBar.h">
+      <Filter>Source Files\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="CAcadMenuGroup.h">
+      <Filter>Source Files\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="CAcadMenuGroups.h">
+      <Filter>Source Files\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="CAcadModelSpace.h">
+      <Filter>Source Files\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="CAcadPopupMenu.h">
+      <Filter>Source Files\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="CAcadPopupMenus.h">
+      <Filter>Source Files\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawDotted.h">
+      <Filter>Source Files\虚线框</Filter>
+    </ClInclude>
+    <ClInclude Include="CLRMVSheet.h">
+      <Filter>Source Files\特殊LRMV</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProress.h">
+      <Filter>Source Files\进度条</Filter>
+    </ClInclude>
+    <ClInclude Include="MyProgress.h">
+      <Filter>Source Files\进度条</Filter>
+    </ClInclude>
+    <ClInclude Include="DirTreeCtrl.h">
+      <Filter>Source Files\技术文字</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgJswz.h">
+      <Filter>Source Files\技术文字</Filter>
+    </ClInclude>
+    <ClInclude Include="SortStringArray.h">
+      <Filter>Source Files\技术文字</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseDbReactor.h">
+      <Filter>Source Files\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseDocReactor.h">
+      <Filter>Source Files\Reactor</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawFrame.h">
+      <Filter>Source Files\图框</Filter>
+    </ClInclude>
+    <ClInclude Include="CFrameInfo.h">
+      <Filter>Source Files\图框</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEidtFrame.h">
+      <Filter>Source Files\图框</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>Source Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalQuery.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalRWriteFile.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="CLrmvpSheetInfo.h">
+      <Filter>Source Files\头子生成座子</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCreateZuozi.h">
+      <Filter>Source Files\头子生成座子</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCreateTouzi.h">
+      <Filter>Source Files\座子生成头子</Filter>
+    </ClInclude>
+    <ClInclude Include="CIgnoreErrorCell.h">
+      <Filter>Source Files\错误列表</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgListError.h">
+      <Filter>Source Files\错误列表</Filter>
+    </ClInclude>
+    <ClInclude Include="CVerifyData.h">
+      <Filter>Source Files\校验数据</Filter>
+    </ClInclude>
+    <ClInclude Include="CGenerateJxb.h">
+      <Filter>Source Files\线号处理</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingalNo.h">
+      <Filter>Source Files\线号处理</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawLjx.h">
+      <Filter>Source Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDrawResistance.h">
+      <Filter>Source Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawOutLine.h">
+      <Filter>Source Files\外框</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuickFindQuxiang.h">
+      <Filter>Source Files\方便修改</Filter>
+    </ClInclude>
+    <ClInclude Include="DocData.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEditTexing.h">
+      <Filter>Source Files\修改特性</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEditExcel.h">
+      <Filter>Source Files\修改excel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rc\right.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rc\right.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZwForNJGR.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

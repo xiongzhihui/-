@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Info>
+<!--1 LRM7-AH12S-TSJ及LRM7-AH12B-Z2SJ -->
+  <Frame Name="LRM7-AH12S-TSJ">
+    <FrameType>A1</FrameType>
+    <HorSpace>28</HorSpace>
+    <VerSpace>30</VerSpace>
+    <LeftVerGap>35</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+    <Gap>30</Gap>
+  </Frame>
+    <Frame Name="LRM7-AH12B-Z2SJ">
+    <FrameType>A1</FrameType>
+    <HorSpace>28</HorSpace>
+    <VerSpace>30</VerSpace>
+    <LeftVerGap>35</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+    <Gap>30</Gap>
+  </Frame>
+<!--2 LRM2-A35H8B-BH18B-T1-01及LRM2-A35H8B-BH18B-Z2-01 -->
+ <Frame Name="LRM2-A35H8B-BH18B-T1-01">
+    <FrameType>A2</FrameType>
+    <HorSpace>40</HorSpace>
+    <VerSpace>30</VerSpace>
+    <LeftVerGap>35</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>
+  </Frame>
+   <Frame Name="LRM2-A35H8B-BH18B-Z2-01">
+    <FrameType>A2</FrameType>
+    <HorSpace>40</HorSpace>
+    <VerSpace>30</VerSpace>
+    <LeftVerGap>35</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>
+  </Frame>
+  <!--3 -->
+  <Frame Name="LRMV-W16G4T23-T">
+	<FrameType>A1</FrameType>
+    <HorSpace>50</HorSpace>
+    <VerSpace>10</VerSpace>
+    <LeftVerGap>35</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>
+  </Frame>
+   <Frame Name="LRMV-W16G4T23-Z">
+    <FrameType>A1</FrameType>
+    <HorSpace>28</HorSpace>
+    <VerSpace>10</VerSpace>
+	<LeftVerGap>35</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>
+  </Frame>
+  <!--4 -->
+  <Frame Name="LRMV-G2T44-T">
+    <FrameType>A1</FrameType>
+    <HorSpace>50</HorSpace>
+    <VerSpace>40</VerSpace>
+    <LeftVerGap>60</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>
+  </Frame>
+   <Frame Name="LRMV-G2T44-Z">
+    <FrameType>A1</FrameType>
+    <HorSpace>28</HorSpace>
+    <VerSpace>30</VerSpace>
+    <LeftVerGap>60</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>
+  </Frame>
+  <!--5 -->
+  <Frame Name="LRMS5-A153H12RBG2R-T1-01">
+    <FrameType>A1</FrameType>
+    <HorSpace>28</HorSpace>
+    <VerSpace>30</VerSpace>
+    <LeftVerGap>80</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>
+  </Frame>
+   <Frame Name="LRMS5-A153H12RBG2R-Z2-01">
+    <FrameType>A1</FrameType>
+    <HorSpace>28</HorSpace>
+    <VerSpace>30</VerSpace>
+    <LeftVerGap>80</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>
+  </Frame>
+  <!-- -->
+  <Frame Name="LRMS6-A189S-TSJ-01">
+    <FrameType>A1</FrameType>
+    <HorSpace>28</HorSpace>
+    <VerSpace>50</VerSpace>
+    <LeftVerGap>35</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>    
+  </Frame>
+   <Frame Name="LRMS6-A189S-ZSJ-01">
+    <FrameType>A1</FrameType>
+    <HorSpace>28</HorSpace>
+    <VerSpace>30</VerSpace>
+    <LeftVerGap>35</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>    
+  </Frame>
+ <Frame Name="LRMV-W40G4-T">
+    <FrameType>A0</FrameType>
+    <HorSpace>80</HorSpace>
+    <VerSpace>30</VerSpace>
+    <LeftVerGap>35</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>
+  </Frame>
+  <Frame Name="LRMV-W40G4-Z">
+    <FrameType>A0</FrameType>
+    <HorSpace>60</HorSpace>
+    <VerSpace>30</VerSpace>
+    <LeftVerGap>35</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+	<Gap>30</Gap>
+  </Frame>
+<Frame Name="lrmv_w40mt4_z">
+    <FrameType>A0</FrameType>
+    <HorSpace>60</HorSpace>
+    <VerSpace>30</VerSpace>
+    <LeftVerGap>35</LeftVerGap> 
+	<LeftHorGap>50</LeftHorGap> 	
+	<SpaceVerGap>70</SpaceVerGap>	
+    <Gap>30</Gap>
+  </Frame>
+</Info>

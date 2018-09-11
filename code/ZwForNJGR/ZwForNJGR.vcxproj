@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_32|Win32">
+      <Configuration>Debug_32</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_32|x64">
+      <Configuration>Debug_32</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6869E087-73B9-4402-AE0E-CB2C334512DC}</ProjectGuid>
+    <RootNamespace>ZwForNJGR</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_32|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_32|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v90</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v90</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v90</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_32|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_32|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_32|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_32|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_32|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_32|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_32|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_32|x64'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_32|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_32|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_32|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_32|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_32|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_32|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>../SDK\inc-x64;../SDK\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>../SDK\lib-x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>../SDK\inc-x64;../SDK\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>../SDK\lib-x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalUsingDirectories>C:\Program Files\AutoCAD 2010\;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ZWFORNJGR_MODULE;_AFXEXT;_ACRXAPP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)ZwForNJGR.arx</OutputFile>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)ZwForNJGR.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)ZwForNJGR.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\work\国睿一期代码\MyBaseDLL\MyBaseDLL\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>C:\Program Files\AutoCAD 2010\;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>_WIN64;_WINDOWS;ZWFORNJGR_MODULE;_AFXEXT;_ACRXAPP;ARX;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>MyBaseDLL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>D:\work\国睿一期代码\ZwForICDX64\ZwForNJGR.arx</OutputFile>
+      <AdditionalLibraryDirectories>D:\work\国睿一期代码\ZWRQY_ACAD;D:\ObjectARX2010\lib-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)ZwForNJGR.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)ZwForNJGR.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>E:\GitHub\MyBaseDLL\MyBaseDLL\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>C:\Program Files\AutoCAD 2010\;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ZWFORNJGR_MODULE;NDEBUG;_AFXEXT;_ACRXAPP;ARX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>MyBaseDll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>E:\GitHub\ZwForICD\ZwForICDX32\ZwForNJGR.arx</OutputFile>
+      <AdditionalLibraryDirectories>E:\GitHub\ZwForICD\Lib\ACADLib\X32;D:\ObjectARX\ObjectARX 2010\lib-win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>
+      </ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)ZwForNJGR.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>D:\work\国睿一期代码\MyBaseDLL\MyBaseDLL\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>C:\Program Files\AutoCAD 2010\;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>_WIN64;_WINDOWS;ZWFORNJGR_MODULE;NDEBUG;_AFXEXT;_ACRXAPP;ARX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>MyBaseDLL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>E:\GitHub\ZwForICD\ZwForICDX64\ZwForNJGR.arx</OutputFile>
+      <AdditionalLibraryDirectories>E:\GitHub\ZwForICD\Lib\ACADLib\X64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>
+      </ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)ZwForNJGR.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_32|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>E:\GitHub\SVN\MyBaseDLL\MyBaseDLL\code;D:\ObjectARX\ObjectARX 2010\inc;D:\ObjectARX\ObjectARX 2010\inc-win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>C:\Program Files\AutoCAD 2010\;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ZWFORNJGR_MODULE;_AFXEXT;_ACRXAPP;ARX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>MyBaseDLL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>E:\GitHub\SVN\Project\ZwForICD_ACAD\ZwForICDX32\ZwForNJGR.arx</OutputFile>
+      <AdditionalLibraryDirectories>E:\GitHub\SVN\Project\ZwForICD_ACAD\code\ACADLib\X32;D:\ObjectARX\ObjectARX 2010\lib-win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)ZwForNJGR.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)ZwForNJGR.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_32|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>E:\GitHub\SVN\MyBaseDLL\MyBaseDLL\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>C:\Program Files\AutoCAD 2010\;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>_WIN64;_WINDOWS;ZWFORNJGR_MODULE;_AFXEXT;_ACRXAPP;ARX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>MyBaseDLL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>E:\GitHub\SVN\Project\ZwForICD_ACAD\ZwForICDX64\ZwForNJGR.arx</OutputFile>
+      <AdditionalLibraryDirectories>E:\GitHub\SVN\Project\ZwForICD_ACAD\code\ACADLib\X32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)ZwForNJGR.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)ZwForNJGR.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp" />
+    <ClCompile Include="DlgEditExcel.cpp" />
+    <ClCompile Include="DlgEditTexing.cpp" />
+    <ClCompile Include="DocData.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_32|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_32|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ZwForNJGR.cpp" />
+    <ClCompile Include="excel9.cpp" />
+    <ClCompile Include="MyExcel.cpp" />
+    <ClCompile Include="CDrawDigitalOptical.cpp" />
+    <ClCompile Include="CDrawEnt.cpp" />
+    <ClCompile Include="CDrawLrmvEnt.cpp" />
+    <ClCompile Include="CCommonCell.cpp" />
+    <ClCompile Include="CDataCell.cpp" />
+    <ClCompile Include="CNameCell.cpp" />
+    <ClCompile Include="CLrmvTitleInfo.cpp" />
+    <ClCompile Include="CommonData.cpp" />
+    <ClCompile Include="GLData.cpp" />
+    <ClCompile Include="RFData.cpp" />
+    <ClCompile Include="SheetStoreData.cpp" />
+    <ClCompile Include="TableData.cpp" />
+    <ClCompile Include="CDigitalOpticalSheet.cpp" />
+    <ClCompile Include="CLrmSheetInfo.cpp" />
+    <ClCompile Include="CSheetInfo.cpp" />
+    <ClCompile Include="SingleSheetData.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="BaseUtils.cpp" />
+    <ClCompile Include="CBaseInfoInDwgFile.cpp" />
+    <ClCompile Include="CDrawBaseData.cpp" />
+    <ClCompile Include="CCommonDraw.cpp" />
+    <ClCompile Include="DlgInitSetting.cpp" />
+    <ClCompile Include="DlgSaveBM.cpp" />
+    <ClCompile Include="DlgTKSZ.cpp" />
+    <ClCompile Include="ComboItem.cpp" />
+    <ClCompile Include="EditItem.cpp" />
+    <ClCompile Include="EditList.cpp" />
+    <ClCompile Include="CDrawDotted.cpp" />
+    <ClCompile Include="CLRMVSheet.cpp" />
+    <ClCompile Include="DlgProress.cpp" />
+    <ClCompile Include="MyProgress.cpp" />
+    <ClCompile Include="DirTreeCtrl.cpp" />
+    <ClCompile Include="DlgJswz.cpp" />
+    <ClCompile Include="SortStringArray.cpp" />
+    <ClCompile Include="CBaseDbReactor.cpp" />
+    <ClCompile Include="CBaseDocReactor.cpp" />
+    <ClCompile Include="CDrawFrame.cpp" />
+    <ClCompile Include="CFrameInfo.cpp" />
+    <ClCompile Include="DlgEidtFrame.cpp" />
+    <ClCompile Include="Markup.cpp" />
+    <ClCompile Include="CGlobalQuery.cpp" />
+    <ClCompile Include="CGlobalRWriteFile.cpp" />
+    <ClCompile Include="CLrmvpSheetInfo.cpp" />
+    <ClCompile Include="DlgCreateZuozi.cpp" />
+    <ClCompile Include="DlgCreateTouzi.cpp" />
+    <ClCompile Include="CIgnoreErrorCell.cpp" />
+    <ClCompile Include="DlgListError.cpp" />
+    <ClCompile Include="CVerifyData.cpp" />
+    <ClCompile Include="CGenerateJxb.cpp" />
+    <ClCompile Include="CSingalNo.cpp" />
+    <ClCompile Include="CDrawLjx.cpp" />
+    <ClCompile Include="DlgDrawResistance.cpp" />
+    <ClCompile Include="CDrawOutLine.cpp" />
+    <ClCompile Include="CQuickFindQuxiang.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DlgEditExcel.h" />
+    <ClInclude Include="DlgEditTexing.h" />
+    <ClInclude Include="excel9.h" />
+    <ClInclude Include="MyExcel.h" />
+    <ClInclude Include="CDrawDigitalOptical.h" />
+    <ClInclude Include="CDrawEnt.h" />
+    <ClInclude Include="CDrawLrmvEnt.h" />
+    <ClInclude Include="CCommonCell.h" />
+    <ClInclude Include="CCommonDraw.h" />
+    <ClInclude Include="CDataCell.h" />
+    <ClInclude Include="CNameCell.h" />
+    <ClInclude Include="CLrmvTitleInfo.h" />
+    <ClInclude Include="CommonData.h" />
+    <ClInclude Include="GLData.h" />
+    <ClInclude Include="RFData.h" />
+    <ClInclude Include="SheetStoreData.h" />
+    <ClInclude Include="TableData.h" />
+    <ClInclude Include="CDigitalOpticalSheet.h" />
+    <ClInclude Include="CLrmSheetInfo.h" />
+    <ClInclude Include="CSheetInfo.h" />
+    <ClInclude Include="SingleSheetData.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="BaseUtils.h" />
+    <ClInclude Include="CBaseInfoInDwgFile.h" />
+    <ClInclude Include="CDrawBaseData.h" />
+    <ClInclude Include="DlgInitSetting.h" />
+    <ClInclude Include="DlgSaveBM.h" />
+    <ClInclude Include="DlgTKSZ.h" />
+    <ClInclude Include="ComboItem.h" />
+    <ClInclude Include="EditItem.h" />
+    <ClInclude Include="EditList.h" />
+    <ClInclude Include="CAcadApplication.h" />
+    <ClInclude Include="CAcadDocument.h" />
+    <ClInclude Include="CAcadMenuBar.h" />
+    <ClInclude Include="CAcadMenuGroup.h" />
+    <ClInclude Include="CAcadMenuGroups.h" />
+    <ClInclude Include="CAcadModelSpace.h" />
+    <ClInclude Include="CAcadPopupMenu.h" />
+    <ClInclude Include="CAcadPopupMenus.h" />
+    <ClInclude Include="CDrawDotted.h" />
+    <ClInclude Include="CLRMVSheet.h" />
+    <ClInclude Include="DlgProress.h" />
+    <ClInclude Include="MyProgress.h" />
+    <ClInclude Include="DirTreeCtrl.h" />
+    <ClInclude Include="DlgJswz.h" />
+    <ClInclude Include="SortStringArray.h" />
+    <ClInclude Include="CBaseDbReactor.h" />
+    <ClInclude Include="CBaseDocReactor.h" />
+    <ClInclude Include="CDrawFrame.h" />
+    <ClInclude Include="CFrameInfo.h" />
+    <ClInclude Include="DlgEidtFrame.h" />
+    <ClInclude Include="Markup.h" />
+    <ClInclude Include="CGlobalQuery.h" />
+    <ClInclude Include="CGlobalRWriteFile.h" />
+    <ClInclude Include="CLrmvpSheetInfo.h" />
+    <ClInclude Include="DlgCreateZuozi.h" />
+    <ClInclude Include="DlgCreateTouzi.h" />
+    <ClInclude Include="CIgnoreErrorCell.h" />
+    <ClInclude Include="DlgListError.h" />
+    <ClInclude Include="CVerifyData.h" />
+    <ClInclude Include="CGenerateJxb.h" />
+    <ClInclude Include="CSingalNo.h" />
+    <ClInclude Include="CDrawLjx.h" />
+    <ClInclude Include="DlgDrawResistance.h" />
+    <ClInclude Include="CDrawOutLine.h" />
+    <ClInclude Include="CQuickFindQuxiang.h" />
+    <ClInclude Include="DocData.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rc\right.bmp" />
+    <None Include="rc\right.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZwForNJGR.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="ZwForNJGR.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

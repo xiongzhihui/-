@@ -1,0 +1,59 @@
+***MENUGROUP=ICD
+***POP13
+**ICD
+[ICD工具]
+[--]
+	[保存文件]^C^CSFILE
+	[初始设定]^C^CINIT
+	[-----------------]
+        [电气特性连接表]^C^CTK
+	[-----------------]
+	[生成接线表]^C^CSCJXB
+	[技术文字]^C^CJSWZ
+	[修改图框]^C^CXGTK
+	[模块虚线框]^C^CTCXXK
+	[母板虚线框]^C^CMBXXK
+	[生成座子]^C^CSCZZ
+	[生成头子]^C^CSCTZ
+	[文件比对]^C^CCMP
+	[还原颜色]^C^CHYYS
+	[版本号]^C^CVERNUM
+
+***POP101
+**DRAWING
+ID_DRAW [快速设计]
+ID_S21[接线图]^C^C_JXT
+ID_S22[电缆图]^C^C_DLT
+[--]
+ID_S23[附件]^C^C_FJ
+[--]
+ID_S24[图框]^C^C_TK2
+ID_S25[技术文字]^C^C_JSWZ
+[--]
+ID_S26[修改特性]^C^C_EDITTX
+ID_S27[刷新excel]^C^C_REFRESHEXCEL
+ID_S28[刷新dwg]^C^C_REFRESHDWG
+
+***TOOLBARS
+**BUTTON
+ID_BTN_1    [_Toolbar("按钮栏", _Left, _Show, 0, 0, 1)]
+ID_P01      [_Button("接线图","bmp/A.bmp", "ICON_24_BLANK")]^C^C_JXT
+ID_P02      [_Button("电缆图","bmp/B.bmp", "ICON_25_BLANK")]^C^C_DLT
+[--]
+ID_P03      [_Button("附件  ","bmp/C.bmp", "ICON_26_BLANK")]^C^C_FJ
+[--]
+ID_P03      [_Button("图框  ","bmp/D.bmp", "ICON_27_BLANK")]^C^C_TK2
+ID_P03      [_Button("技术文字  ","bmp/E.bmp", "ICON_28_BLANK")]^C^C_JSWZ
+[--]
+
+***TOOLBARS
+**ICD菜单
+**ICDBASE
+               [_Toolbar("ICDBASE", _Left, _Show, 1, 1, 1)]
+ 	       [_Button("初始设定", "CMC.BMP", "ICON_24_BLANK")]^C^CINIT
+               [_Button("电气特性连接表", "TK.BMP", "ICON_24_BLANK")]^C^CTK
+               [_Button("生成接线表", "X.BMP", "ICON_24_BLANK")]^C^CSCJXB
+               [_Button("技术文字", "P.BMP", "ICON_24_BLANK")]^C^CJSWZ
+		
+
+    

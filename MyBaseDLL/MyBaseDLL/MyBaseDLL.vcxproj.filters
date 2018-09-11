@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5dc9d284-8522-4abf-a7ed-312a91a1a636}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;idl;odl</Extensions>
+    </Filter>
+    <Filter Include="Source Files\code">
+      <UniqueIdentifier>{c4a3deb8-e4a0-4651-b75f-548782ce9cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\view">
+      <UniqueIdentifier>{50483798-cf30-447e-b23b-939d12e0afea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{ad2720eb-86fe-4176-bcfc-50426c734c43}</UniqueIdentifier>
+      <Extensions>h;hh;hxx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7d7bde1f-8633-4ce0-b12b-2d962a53d2a7}</UniqueIdentifier>
+      <Extensions>rc;ico;bmp;cur;jpg;gif</Extensions>
+    </Filter>
+    <Filter Include="Miscellaneous Files">
+      <UniqueIdentifier>{15ac536b-9e10-41d2-92c9-c738ec0e2909}</UniqueIdentifier>
+      <Extensions>reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DocData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBaseDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\AcadStr.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ArxDbgReferenceFiler.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ArxDbgUtilsDb.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Global.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\IniFile.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MyBaseRbList.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MyBaseUtils.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MybaseUtilsDict.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MyBaseUtilsSymTbl.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MyBaseXdata.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MyDrag.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MyDrawEntity.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MyEditEntity.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MyLayout.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MyOperateFile.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MyParserString.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MySymble.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\MyTransFunc.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\OperateReg.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\WriteLog.cpp">
+      <Filter>Source Files\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GraphBlockViewWnd.cpp">
+      <Filter>Source Files\view</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GraphListCtrl.cpp">
+      <Filter>Source Files\view</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GraphTitleTip.cpp">
+      <Filter>Source Files\view</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GsMPCtrl.cpp">
+      <Filter>Source Files\view</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\AcadStr.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ArxDbgReferenceFiler.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Global.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\IniFile.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MyBase.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MyBaseRbList.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MyBaseUtils.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MyBaseXdata.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MyDrag.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MyDrawEntity.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MyEditEntity.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MyLayout.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MyOperateFile.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MyParserString.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MySymble.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\MyTransFunc.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\OperateReg.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\WriteLog.h">
+      <Filter>Source Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GraphBlockViewWnd.h">
+      <Filter>Source Files\view</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GraphListCtrl.h">
+      <Filter>Source Files\view</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GraphTitleTip.h">
+      <Filter>Source Files\view</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GsMPCtrl.h">
+      <Filter>Source Files\view</Filter>
+    </ClInclude>
+    <ClInclude Include="code\rxdebug.h">
+      <Filter>Source Files\view</Filter>
+    </ClInclude>
+    <ClInclude Include="DocData.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="code\idi_cros.cur">
+      <Filter>Source Files\view</Filter>
+    </None>
+    <None Include="code\idi_orbi.cur">
+      <Filter>Source Files\view</Filter>
+    </None>
+    <None Include="code\idi_pan.cur">
+      <Filter>Source Files\view</Filter>
+    </None>
+    <None Include="code\idi_zoom.cur">
+      <Filter>Source Files\view</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyBaseDLL.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
