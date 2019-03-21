@@ -61,7 +61,7 @@
     <UseOfAtl>false</UseOfAtl>
     <CharacterSet>Unicode</CharacterSet>
     <CLRSupport>false</CLRSupport>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v90</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -202,7 +202,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>D:\work\国睿一期代码\MyBaseDLL\MyBaseDLL\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\GitHub\国睿一期代码\MyBaseDLL\MyBaseDLL\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalUsingDirectories>C:\Program Files\AutoCAD 2010\;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
       <PreprocessorDefinitions>_WIN64;_WINDOWS;ZWFORNJGR_MODULE;_AFXEXT;_ACRXAPP;ARX;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>false</StringPooling>
@@ -219,8 +219,8 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>MyBaseDLL.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>D:\work\国睿一期代码\ZwForICDX64\ZwForNJGR.arx</OutputFile>
-      <AdditionalLibraryDirectories>D:\work\国睿一期代码\ZWRQY_ACAD;D:\ObjectARX2010\lib-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>D:\work\GitHub\国睿一期代码\ZwForICDX64\ZwForNJGR.arx</OutputFile>
+      <AdditionalLibraryDirectories>D:\work\GitHub\国睿一期代码\ZWRQY_ACAD;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <LinkDLL>true</LinkDLL>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)ZwForNJGR.pdb</ProgramDatabaseFile>
